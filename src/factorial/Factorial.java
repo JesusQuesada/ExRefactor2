@@ -4,22 +4,22 @@ public class Factorial {
 
     public static void main(String[] args) {
         //Hago un formateo de código con 'Source -> Format'
-        int j;
-        int f;
+        int num1; //cambio de nombre de variable marcando la variable y botón derecho 'Refactor -> Rename'
+        int num2; //cambio de nombre de variable marcando la variable y botón derecho 'Refactor -> Rename'
 
-        j = 8;
+        num1 = 8;
 
-        int i;
-        if (j == 0) {
-            f = 1;
+        int num3; //cambio de nombre de variable marcando la variable y botón derecho 'Refactor -> Rename'
+        if (num1 == 0) {
+            num2 = 1;
         } else {
-            f = 1;
-            for (i = j; i >= 1; i--) {
-                f = f * i;
+            num2 = 1;
+            for (num3 = num1; num3 >= 1; num3--) {
+                num2 = num2 * num3;
             }
         }
 
-        System.out.println(f);
+        System.out.println(num2);
 
     }
 
